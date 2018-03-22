@@ -10,8 +10,8 @@ import org.springframework.security.authentication.DisabledException;
 import org.springframework.security.authentication.AuthenticationServiceException;
 import org.springframework.stereotype.Service;
 
-import com.app.model.user.Role;
-import com.app.model.user.User;
+import com.app.model.Role;
+import com.app.model.User;
 import com.app.repo.UserRepo;
 
 import java.util.Optional;

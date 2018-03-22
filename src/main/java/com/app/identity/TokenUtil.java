@@ -2,13 +2,14 @@ package com.app.identity;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Service;
+
+import com.app.model.Role;
+import com.app.model.User;
+
 import io.jsonwebtoken.*;
 import javax.servlet.http.*;
 import java.util.*;
 import java.io.IOException;
-
-import com.app.model.user.Role;
-import com.app.model.user.User;
 
 @Service
 public class TokenUtil {

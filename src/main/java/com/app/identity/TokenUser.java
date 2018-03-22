@@ -1,8 +1,9 @@
 package com.app.identity;
 
 import org.springframework.security.core.authority.AuthorityUtils;
-import com.app.model.user.Role;
-import com.app.model.user.User;
+
+import com.app.model.Role;
+import com.app.model.User;
 
 public class TokenUser extends org.springframework.security.core.userdetails.User {
 	private User user;
